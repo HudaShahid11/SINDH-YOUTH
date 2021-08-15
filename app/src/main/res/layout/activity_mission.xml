@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sindh.mission"
+    android:background="#2a8935">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/govt_logo"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:layout_margin="15dp"
+            android:textSize="40dp"
+
+            android:text="Vision"
+            android:textColor="#ffff00" />
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:text="Prosperous, energetic and resilient youth enabled by positive, conducive and progressive environments by creating rights-based, fair ,equitable, accessible and market-oriented opportunities and avenues for their wellbeing, growth and prosperity of Sindh province"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:layout_margin="15dp"
+            android:textSize="40dp"
+
+            android:text="Mission"
+            android:textColor="#ffff00" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:text="Integrated and holistic youth development for realizing full potential in social, economic, and political/civic domains where youth are educated, economically-active, gender-friendly, peaceful and democratic, and are mobilized with a sense of individual and collective responsibilities"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:layout_margin="15dp"
+            android:textSize="40dp"
+
+            android:text="Objective"
+            android:textColor="#ffff00" />
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:text="Development of Human Capital-Education and Skills Development Programme for Youth. Promotion of Entrepreneurship and Self Employment.Internship, Scholarship. On Campus Job and Job Placement.Promotion of Youth Volunteerism and Community Services."/>
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

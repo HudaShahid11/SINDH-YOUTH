@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#FCF6F5</color>
+    <color name="red">#e01d2b</color>
+    <color name="green">#046660</color>
+    <color name="green1">#004226</color>
+    <color name="green_govt">#2a8935</color>
+    <color name="white1">#FFFFFF</color>
+    <color name="pri_light">#80009688</color>
+    <color name="bg">#E9FF9800</color>
+    <color name="colorGreenLight">#abffc0</color>
+    <color name="colorGreen">#247b37</color>
+    <color name="colorGreen1">#3eb959</color>
+    <color name="colorWhite">#ffffff</color>
+</resources>

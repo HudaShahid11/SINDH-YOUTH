@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">sindh</string>
+    <string name="note">Online Training(Coming Soon)</string>
+    <string name="point1">All online courses are free of cost\n\n</string>
+    <string name="point2">You can study any time you want. Online courses give you the flexibility to spend time with work, family, friends, significant others or any other activity you like.\n\n</string>
+    <string name="point3">Because you have a direct pipeline to the instructor via e-mail, you can get your questions answered directly.\n\n</string>
+    <string name="point4">When you complete this course, you will be able to include e-mail and web browsing as technical skills on your resume.\n\n</string>
+    <string name="popup"><b><u>100</u></b> Certifications Are Available Here!!</string>
+</resources>

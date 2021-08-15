@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lrf"
+    android:background="@drawable/d">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="150dp"
+
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@color/green"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/ssdp"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:background="#FFFFFF"
+                android:scaleType="fitXY"
+                android:src="@drawable/lrf" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Malik Tahir Iqbal Adv."
+            android:gravity="center"
+            android:fontFamily="@font/amaranth_bold"
+            android:textSize="40dp"
+            android:textColor="@color/green"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Executive Director"
+            android:gravity="center"
+            android:fontFamily="@font/amaranth_bold"
+            android:textSize="30dp"
+            android:layout_marginBottom="30dp"
+            android:textColor="@color/green"/>
+
+
+        <Button
+            android:id="@+id/call"
+            android:layout_width="250dp"
+
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:layout_marginTop="20dp"
+            android:background="@layout/button"
+            android:fontFamily="@font/armata"
+            android:text="Call"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <Button
+            android:layout_width="250dp"
+
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:layout_marginTop="20dp"
+            android:background="@layout/button"
+            android:fontFamily="@font/armata"
+            android:text="Whatsapp"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:id="@+id/wapp"/>
+
+
+
+
+        <Button
+            android:layout_width="250dp"
+
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:layout_marginTop="20dp"
+            android:background="@layout/button"
+            android:fontFamily="@font/armata"
+            android:text="E-mail"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:id="@+id/email"/>
+
+
+
+
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@layout/button"
+            android:fontFamily="@font/armata"
+            android:text="Website"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:id="@+id/web"/>
+
+
+
+        <Button
+            android:layout_width="250dp"
+
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:layout_marginTop="20dp"
+            android:background="@layout/button"
+            android:fontFamily="@font/armata"
+            android:text="Facebook"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:id="@+id/fb"
+            android:layout_marginBottom="20dp"/>
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

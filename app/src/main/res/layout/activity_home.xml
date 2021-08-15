@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:background="@drawable/d">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="#004226"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/slogo" />
+
+
+        <GridLayout
+            android:id="@+id/GridLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"
+            android:rowCount="4">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="150dp"
+
+                    android:layout_height="170dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+
+                    android:layout_marginRight="10dp"
+                    android:background="@color/green1"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/ssdp"
+                        android:layout_width="140dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:background="@color/white"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ssdp" />
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="70dp"
+                        android:fontFamily="@font/amaranth_bold"
+                        android:gravity="center"
+                        android:text="Sindh Skill Development Program"
+                        android:textColor="@color/white"
+                        android:textSize="16dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="150dp"
+
+                    android:layout_height="170dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+
+                    android:layout_marginRight="10dp"
+                    android:background="@color/green1"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/kewo"
+                        android:layout_width="140dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:background="@color/white"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/k11" />
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="70dp"
+                        android:fontFamily="@font/amaranth_bold"
+                        android:gravity="center"
+                        android:text="Karsaz Education And Welfare Org"
+                        android:textColor="@color/white"
+                        android:textSize="16dp" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="150dp"
+
+                    android:layout_height="170dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+
+                    android:layout_marginRight="10dp"
+                    android:background="@color/green1"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/hands"
+                        android:layout_width="140dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:background="@color/white"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/hands" />
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="70dp"
+                        android:fontFamily="@font/amaranth_bold"
+                        android:gravity="center"
+                        android:text="HANDS"
+                        android:textColor="@color/white"
+                        android:textSize="16dp" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="150dp"
+
+                    android:layout_height="170dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+
+                    android:layout_marginRight="10dp"
+                    android:background="@color/green1"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/voy"
+                        android:layout_width="140dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:background="@color/white"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/voy" />
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="70dp"
+                        android:fontFamily="@font/amaranth_bold"
+                        android:gravity="center"
+                        android:text="Voice of Youth"
+                        android:textColor="@color/white"
+                        android:textSize="16dp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+
+                <LinearLayout
+                    android:layout_width="150dp"
+
+                    android:layout_height="170dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+
+                    android:layout_marginRight="10dp"
+                    android:background="@color/green1"
+                    android:orientation="vertical">
+                    <ImageButton
+                        android:id="@+id/lrf"
+                        android:layout_width="140dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:background="@color/white"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/lrf" />
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="70dp"
+                        android:fontFamily="@font/amaranth_bold"
+                        android:gravity="center"
+                        android:text="Legal Rights Forum"
+                        android:textColor="@color/white"
+                        android:textSize="16dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="150dp"
+
+                    android:layout_height="170dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+
+                    android:layout_marginRight="10dp"
+                    android:background="@color/green1"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/services"
+                        android:layout_width="140dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:background="@color/white"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/services" />
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="70dp"
+                        android:fontFamily="@font/amaranth_bold"
+                        android:gravity="center"
+                        android:text="More Information of legal Services"
+                        android:textColor="@color/white"
+                        android:textSize="16dp" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+
+        </GridLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

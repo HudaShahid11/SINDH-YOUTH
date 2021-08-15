@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#004226"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/slogo"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:fontFamily="@font/amaranth_bold"
+        android:gravity="center"
+        android:text="SINDH SPORTS AND YOUTH DEPARTMENT (SSYD)"
+        android:textColor="#f1f5f4"
+        android:textSize="35dp"
+
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:fontFamily="@font/amaranth_bold"
+        android:text="Youth Policy 2018 Execution Program (YPEP)"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_margin="15dp"
+        android:textColor="#f1f5f4"/>
+
+</LinearLayout>

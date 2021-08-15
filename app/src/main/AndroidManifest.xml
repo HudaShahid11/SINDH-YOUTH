@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sindh"
+    android:targetSandboxVersion="1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Sindh Youth"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".workshop"></activity>
+        <activity android:name=".data" />
+        <activity android:name=".counter" />
+        <activity android:name=".internship" />
+        <activity android:name=".membership_form" />
+        <activity android:name=".membership" />
+        <activity android:name=".CourseActivity" />
+        <activity android:name=".CourseDetail" />
+        <activity android:name=".CourseForm" />
+        <activity android:name=".online_category" />
+        <activity android:name=".online_course" />
+        <activity android:name=".performance" />
+        <activity android:name=".gallery" />
+        <activity android:name=".message" />
+        <activity android:name=".nav" />
+        <activity android:name=".Upcoming_events" />
+        <activity android:name=".obj" />
+        <activity android:name=".mission" />
+        <activity android:name=".services" />
+        <activity android:name=".lrf" />
+        <activity android:name=".form" />
+        <activity android:name=".cm" />
+        <activity android:name=".activity" />
+        <activity android:name=".press" />
+        <activity android:name=".voy" />
+        <activity android:name=".stc" />
+        <activity android:name=".hands" />
+        <activity android:name=".kewo" />
+        <activity android:name=".ssdp" />
+        <activity android:name=".Home" />
+        <activity android:name=".comingsoon" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

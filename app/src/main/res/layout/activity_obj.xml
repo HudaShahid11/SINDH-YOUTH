@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sindh.obj"
+    android:background="#2a8935">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center">
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/govt_logo"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:textSize="40dp"
+
+        android:text="Objective"
+        android:textColor="#ffff00" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+
+        android:text="Development of Human Capital-Education and Skills Development Programme for Youth. Promotion of Entrepreneurship and Self Employment.Internship, Scholarship. On Campus Job and Job Placement.Promotion of Youth Volunteerism and Community Services."
+        android:textColor="@color/white" />
+    </LinearLayout>
+
+</ScrollView>

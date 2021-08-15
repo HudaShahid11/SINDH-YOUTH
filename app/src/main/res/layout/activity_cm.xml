@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sindh.cm"
+    android:background="#2a8935">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+
+            android:text="Online Training Program...Coming Soon"
+            android:textColor="#ffff00"
+            android:fontFamily="@font/lato_bold"
+            android:id="@+id/note"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="173dp"
+        android:src="@drawable/a" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:textSize="20dp"
+
+            android:text="SYED MURAD ALI SHAH"
+            android:textColor="#ffff00" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+
+            android:textSize="15dp"
+
+            android:text="CHIEF MININTER SINDH"
+            android:textColor="#ffff00" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/text"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="Our government with a sense of deep satisfaction and responsibility present our youth a comprehensive policy for their development. It expresses our commitment to build next generations of economically empowered, socially progressive and politically active youth and to transform the on-going youth bulge into a dividend for the province of Pakistan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textSize="20dp"
+            />
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="173dp"
+        android:src="@drawable/b" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:textSize="20dp"
+
+            android:text="SYED Imtiaz Ali Shah"
+            android:textColor="#ffff00" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+
+            android:textSize="15dp"
+
+            android:text="SECERATORY, SPORTS and YOUTH DEPARTMENT"
+            android:textColor="#ffff00" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/text2"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="Promoting economic well – being of youth with special focus on gender equity and equality and promotion of rights of the vulnerable youth groups , persons with disabilities and key population"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textSize="20dp"
+            />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

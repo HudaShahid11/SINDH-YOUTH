@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sindh.nav"
+    android:background="@drawable/d">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@color/green1">
+
+
+            <Button
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Join Us"
+                android:textSize="15dp"
+                android:background="@color/green1"
+                android:textColor="@color/white"
+                android:id="@+id/signup"/>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="#FFFFFFFF" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Policy"
+                android:textSize="15dp"
+                android:background="@color/green1"
+                android:textColor="@color/white"
+                android:id="@+id/policy"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="#FFFFFFFF" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Events"
+                android:textSize="15dp"
+                android:background="@color/green1"
+                android:textColor="@color/white"
+                android:id="@+id/event"/>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="#FFFFFFFF" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gallery"
+                android:textSize="15dp"
+                android:id="@+id/gallery"
+
+                android:background="@color/green1"
+                android:textColor="@color/white"/>
+
+
+
+
+        </LinearLayout>
+
+        <ViewFlipper
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/v_flipper"
+
+            />
+
+
+
+
+            <ImageButton
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:src="@drawable/fb"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                android:background="#7E7E7E"
+                android:id="@+id/fb"
+                android:layout_marginTop="20dp"/>
+             <ImageButton
+                 android:layout_width="300dp"
+                 android:layout_height="50dp"
+                 android:layout_marginTop="15dp"
+                 android:src="@drawable/twitter"
+
+
+                 android:scaleType="fitXY"
+                 android:layout_gravity="center"
+                 android:background="#7E7E7E"
+                 android:id="@+id/twi"/>
+
+
+            <ImageButton
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/youtube"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                android:background="#7E7E7E"
+                android:id="@+id/youtube"/>
+            <ImageButton
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/email"
+
+
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                android:background="#7E7E7E"
+                android:id="@+id/email"/>
+            <ImageButton
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/wapp"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                android:background="#7E7E7E"
+                android:id="@+id/wapp"
+               />
+            <ImageButton
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/web"
+
+
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                android:background="#7E7E7E"
+                android:id="@+id/web"/>
+
+
+
+
+
+        <ImageButton
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/call"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:background="#7E7E7E"
+            android:id="@+id/call"
+            android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+
+
+</ScrollView>

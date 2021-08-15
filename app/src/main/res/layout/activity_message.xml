@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sindh.cm"
+    android:background="#2a8935">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@color/green1"
+            android:layout_weight="2">
+
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="COURSES"
+                android:textSize="15dp"
+                android:background="@color/green1"
+                android:textColor="@color/white"
+                android:id="@+id/course"
+                android:layout_weight="1"
+                />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="#FFFFFFFF" />
+
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WORKSHOPS"
+                android:textSize="15dp"
+                android:background="@color/green1"
+                android:textColor="@color/white"
+                android:id="@+id/workshops"
+                android:layout_weight="1" />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="#FFFFFFFF" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Resume Form"
+                android:textSize="15dp"
+                android:background="@color/green1"
+                android:textColor="@color/white"
+                android:id="@+id/resume"
+                android:layout_weight="1" />
+
+
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/green1"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/first"
+                android:textColor="@color/white1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:text="Total Registration"
+                android:fontFamily="@font/lato_bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/second"
+                android:textColor="@color/white1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:text="Total Registration"
+                android:fontFamily="@font/lato_bold"
+                android:gravity="center"/>
+
+        </FrameLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+<!--        <TextView-->
+<!--            android:id="@+id/data"-->
+<!--            android:textColor="@color/white1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:textSize="20sp"-->
+<!--            android:text="Statistical Data"-->
+<!--            android:fontFamily="@font/lato_bold"-->
+<!--            android:gravity="center"-->
+<!--            android:background="@color/green1"-->
+<!--            android:padding="10dp"/>-->
+<!--        <View-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="1dp"-->
+<!--            android:background="@color/white"/>-->
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="173dp"
+            android:src="@drawable/a" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:textSize="20dp"
+
+            android:text="SYED MURAD ALI SHAH"
+            android:textColor="#ffff00" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+
+            android:textSize="15dp"
+
+            android:text="CHIEF MININTER SINDH"
+            android:textColor="#ffff00" />
+
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+
+            android:gravity="center"
+            android:text="Our government with a sense of deep satisfaction and responsibility present our youth a comprehensive policy for their development. It expresses our commitment to build next generations of economically empowered, socially progressive and politically active youth and to transform the on-going youth bulge into a dividend for the province of Pakistan Sindh.\n"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="173dp"
+            android:src="@drawable/b" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:textSize="20dp"
+
+            android:text="SYED IMTIAZ ALI SHAH"
+            android:textColor="#ffff00" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+
+            android:textSize="15dp"
+
+            android:text="SECERATORY, SPORTS and YOUTH DEPARTMENT"
+            android:textColor="#ffff00" />
+        <me.biubiubiu.justifytext.library.JustifyTextView
+
+            android:text="Promoting economic well – being of youth with special focus on gender equity and equality and promotion of rights of the vulnerable youth groups , persons with disabilities and key population\n"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:gravity="center">
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/f_book"
+            android:scaleType="fitXY"
+            android:background="#2a8935"
+            android:id="@+id/fb"
+            />
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/twi_ter"
+            android:scaleType="fitXY"
+            android:background="#2a8935"
+            android:layout_marginLeft="7dp"
+            android:id="@+id/twi"
+            />
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/y_tube"
+            android:scaleType="fitXY"
+            android:background="#2a8935"
+            android:layout_marginLeft="7dp"
+            android:id="@+id/youtube"
+            />
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/e_mail"
+            android:scaleType="fitXY"
+            android:background="#2a8935"
+            android:layout_marginLeft="7dp"
+            android:id="@+id/e_mail"
+            />
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/wb"
+            android:scaleType="fitXY"
+            android:background="#2a8935"
+            android:layout_marginLeft="7dp"
+            android:id="@+id/wb"
+            />
+</LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="50dp"
+    android:layout_width="match_parent">
+
+
+    <item android:id="@+id/mission"
+        android:title="Vision, Mission and Obj."/>
+    <item android:id="@+id/policy"
+        android:title="Policy"/>
+    <item android:id="@+id/internship"
+        android:title="Internships"/>
+    <item android:id="@+id/online"
+        android:title="Online Training Program"/>
+    <item android:id="@+id/membership"
+        android:title="Membership"/>
+    <item android:id="@+id/location"
+        android:title="Location"/>
+    <item android:id="@+id/home"
+        android:title="Home"/>
+    <item android:id="@+id/kewo"
+        android:title="KEWO"/>
+    <item android:id="@+id/ssdp"
+        android:title="SSDP"/>
+    <item android:id="@+id/hands"
+        android:title="HANDS"/>
+    <item android:id="@+id/lrf"
+        android:title="Legal Rights Forum"/>
+    <item android:id="@+id/voy"
+        android:title="Voice Of Youth" />
+
+
+
+
+    <item android:id="@+id/stc"
+        android:title="Sindh Tourism Club"/>
+
+</menu>

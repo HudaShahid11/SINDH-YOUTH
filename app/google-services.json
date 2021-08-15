@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "32587397075",
+    "project_id": "sindh-ff504",
+    "storage_bucket": "sindh-ff504.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32587397075:android:5bccd2a15e86aec19be126",
+        "android_client_info": {
+          "package_name": "com.sindh1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "32587397075-2ai38hht1t7tfmon5kc1mm15puludec5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sindh1",
+            "certificate_hash": "2e10f9673bcf2f1273e14d02a8ce566892166798"
+          }
+        },
+        {
+          "client_id": "32587397075-5q93i3d0jpbc21tbsed89tbrcmq9eeai.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB10jBt4Ct7on1ssjA_hj5wtrZyz_tvFWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "32587397075-5q93i3d0jpbc21tbsed89tbrcmq9eeai.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
